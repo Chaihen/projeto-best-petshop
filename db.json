@@ -1,136 +1,374 @@
 {
-  "productos": [
+  "produtosBanho": [
     {
       "id": 1,
-      "name": "Champú para cachorros",
-      "image": "/assets/champu-1.jpg",
-      "price": 12.99,
-      "categoria": "baño"
+      "name": "Shampoo Hipoalergénico",
+      "image": "/assets/shampoohipo.webp",
+      "price": 12.99
     },
     {
       "id": 2,
-      "name": "Pelota de goma resistente",
-      "image": "/assets/champ.jpg",
-      "price": 9.99,
-      "categoria": "brinquedos"
+      "name": "Shampoo Filhote",
+      "image": "/assets/shampoofilhote.webp",
+      "price": 16.49
     },
 
     {
       "id": 3,
-      "name": "Snacks saludables",
-      "image": "/assets/cepillo.jpg",
-      "price": 5.2,
-      "categoria": "alimentos"
+      "name": "Sampoo Sarnicida",
+      "image": "/assets/shampoosarnicida.webp",
+      "price": 8.49
     },
     {
+      "id": 4,
+      "name": "Sampoo Silicone",
+      "image": "/assets/shampoosilicone.webp",
+      "price": 18.99
+    },
+    {
+      "id": 5,
+      "name": "Sampoo e condicionador",
+      "image": "/assets/shampoocondicionador.webp",
+      "price": 21.99
+    },
+    {
+      "id": 6,
+      "name": "Sampoo Pêlos Claros",
+      "image": "/assets/shampooclaros.jpg",
+      "price": 16.49
+    },
+    {
+      "id": 7,
+      "name": "Sampoo Citronela",
+      "image": "/assets/shampoocitro.webp",
+      "price": 15.99
+    },
+    {
+      "id": 8,
+      "name": "Escova Pêlos",
+      "image": "/assets/escovapelos.webp",
+      "price": 20.49
+    },
+    {
+      "id": 9,
+      "name": "Escova Rasqueadeira",
+      "image": "/assets/escovarasque.webp",
+      "price": 17.99
+    },
+    {
+      "id": 10,
+      "name": "Escova Therapy Brush",
+      "image": "/assets/escovatherapybrush.webp",
+      "price": 10.49
+    },
+    {
+      "id": 11,
+      "name": "Escova Pet Gravity",
+      "image": "/assets/escovapet.webp",
+      "price": 12.99
+    },
+    {
+      "id": 12,
+      "name": "Desembolador",
+      "image": "/assets/desembolador.webp",
+      "price": 12.49
+    },
+    {
+      "id": 13,
+      "name": "Sabonete Neutro",
+      "image": "/assets/saboneteneutro.jpg",
+      "price": 15.49
+    },
+    {
+      "id": 14,
+      "name": "Sabão Antipulgas",
+      "image": "/assets/sabaoantipulgas.webp",
+      "price": 13.99
+    },
+    {
+      "id": 15,
+      "name": "Sabão Enxofre",
+      "image": "/assets/sabaoenxofre.webp",
+      "price": 5.49
+    },
+    {
+      "id": 16,
+      "name": "Spray Bucal",
+      "image": "assets/spraybucal.jpg",
+      "price": 25.99
+    },
+    {
+      "id": 17,
+      "name": "Mangueira com Escova",
+      "image": "/assets/mangueirabanho.webp",
+      "price": 32.49
+    },
+    {
+      "id": 18,
+      "name": "Kit Higiene Bucal",
+      "image": "/assets/kithigienebucal.jpg",
+      "price": 23.50
+    },
+    {
+      "id": 19,
+      "name": "Kit Escova de Dente",
+      "image":"/assets/kitescova.webp",
+      "price": 15.49
+    },
+    {
+      "id": 20,
+      "name": "Creme Dental",
+      "image": "/assets/cremedental.jpg",
+      "price": 8.49
+    }
+    
+  ],
+  "produtosBrinquedos": [
+    {
       "id": 1,
-      "name": "Champú para cachorros",
-      "image": "/assets/champu-1.jpg",
-      "price": 12.99,
-      "categoria": "baño"
+      "name": "Brinquedo Macio Dogsner",
+      "image": "/assets/brinquedomacio.jpg",
+      "price": 23.99
     },
     {
       "id": 2,
-      "name": "Pelota de goma resistente",
-      "image": "/assets/champ.jpg",
-      "price": 9.99,
-      "categoria": "brinquedos"
+      "name": "Brinquedo Dentição Aro",
+      "image": "/assets/brinquedodentiçao.jpg",
+      "price": 22.49
     },
 
     {
       "id": 3,
-      "name": "Snacks saludables",
-      "image": "/assets/cepillo.jpg",
-      "price": 5.2,
-      "categoria": "alimentos"
+      "name": "Bola Mordedora",
+      "image": "/assets/brinquedomordedor.webp",
+      "price": 9.99
     },
     {
+      "id": 4,
+      "name": "Brinquedo para Filhotes",
+      "image":"/assets/brinquefilhote.webp",
+      "price": 26.49
+    },
+    {
+      "id": 5,
+      "name": "Brinquedo de Pelucia",
+      "image":"/assets/brinquedopelucia.jpg",
+      "price": 19.99
+    },
+    {
+      "id": 6,
+      "name": "Bola Colors Mordedor",
+      "image": "/assets/bolacolors.webp",
+      "price": 10.99
+    },
+    {
+      "id": 7,
+      "name": "Brinquedo Puxa Puxa",
+      "image": "/assets/recheavle.jpg",
+      "price": 36.49
+    },
+    {
+      "id": 8,
+      "name": "Mordedor com Ventosa",
+      "image": "/assets/mordedorventosa.jpg",
+      "price": 32.99
+    },
+    {
+      "id": 9,
+      "name": "Kit Mordedor Interativo",
+      "image":  "/assets/kitmordedor.webp",
+      "price": 21.49
+    },
+    {
+      "id": 10,
+      "name": "Brinquedo Latex",
+      "image": "/assets/brinquelatex.jpg",
+      "price": 39.99
+    },
+    {
+      "id": 11,
+      "name": "Brinquedo Colmeia",
+      "image": "/assets/brinquecolmeia.webp",
+      "price": 30.49
+    },
+    {
+      "id": 12,
+      "name": "Brinquedo Flexibom",
+      "image": "/assets/brinquecomestivel.webp",
+      "price": 18.99
+    },
+    {
+      "id": 13,
+      "name": "Multifunção com Ventosa",
+      "image": "/assets/multifuncao.webp",
+      "price": 42.50
+    },
+    {
+      "id": 14,
+      "name": "Brinquedo Kong",
+      "image": "/assets/brinquekong.webp",
+      "price": 21.49
+    },
+    {
+      "id": 15,
+      "name": "Brinquedo Resistente Nylon",
+      "image": "/assets/brinquenylon.webp",
+      "price": 19.99
+    },
+    {
+      "id": 16,
+      "name": "Brinquedo Garrafa Pet",
+      "image": "/assets/brinquegarrafa.webp",
+      "price": 51.49
+    },
+    {
+      "id": 17,
+      "name": "Brinquedo Costelinha (com sabor frango) ",
+      "image": "/assets/brinquecostelinha.jpg",
+      "price": 16.49
+    },
+    {
+      "id": 18,
+      "name": "Bola Maciça Extra Forte",
+      "image": "/assets/bolamacica.jpg",
+      "price": 28.50
+    },
+    {
+      "id": 19,
+      "name": "Brinquedo Quebra-cabeça",
+      "image": "/assets/brinquecomida.jpg",
+      "price": 69.99
+    },
+    {
+      "id": 20,
+      "name": "Bola Estimulante",
+      "image": "/assets/bolamovimento.jpg",
+      "price": 71.49
+    }
+  ],
+  "produtosAlimentos": [
+    { 
       "id": 1,
-      "name": "Champú para cachorros",
-      "image": "/assets/champu-1.jpg",
-      "price": 12.99,
-      "categoria": "baño"
+      "name": "Ração Úmida Unique",
+      "image": "/assets/racaoumido.webp",
+      "price": 10.99
     },
-    {
+    { 
       "id": 2,
-      "name": "Pelota de goma resistente",
-      "image": "/assets/champ.jpg",
-      "price": 9.99,
-      "categoria": "brinquedos"
+       "name": "Ração Úmida 100% Natural",
+       "image": "/assets/umidanatural.jpg",
+       "price": 12.97
     },
 
-    {
+    { 
       "id": 3,
-      "name": "Snacks saludables",
-      "image": "/assets/cepillo.jpg",
-      "price": 5.2,
-      "categoria": "alimentos"
+      "name": "Ração Orgánica",
+      "image": "/assets/racaoorganica.jpg",
+      "price": 19.86
+    },   
+    { 
+      "id": 4,
+      "name": "Ração Filhotes",
+      "image": "/assets/racaofilhote.jpg",
+      "price": 29.50
     },
-    {
-      "id": 1,
-      "name": "Champú para cachorros",
-      "image": "/assets/champu-1.jpg",
-      "price": 12.99,
-      "categoria": "baño"
+    { 
+      "id": 5,
+     "name": "Snacks Bifinho",
+     "image": "/assets/snackbifinho.webp",
+     "price": 18.99
     },
-    {
-      "id": 2,
-      "name": "Pelota de goma resistente",
-      "image": "/assets/champ.jpg",
-      "price": 9.99,
-      "categoria": "brinquedos"
+    { 
+      "id": 6,
+     "name": "Ração Adultos",
+     "image": "/assets/premium.webp",
+     "price": 39.50
+    },
+    { 
+      "id": 7,
+     "name": "Petisco Special Dog",
+     "image": "/assets/petisco.jpg",
+     "price": 19.95
+    },
+    { 
+      "id": 8,
+     "name": "Kit Ração Úmida",
+      "image": "assets/kitracaoumida.jpg",
+     "price": 33.50
+    },
+    { 
+      "id": 9,
+     "name": "Ração Pet Food",
+        "image": "/assets/frangoervadoce.webp",
+     "price": 21.99
+    },
+    { 
+      "id": 10,
+     "name": "Snacks Vegano",
+     "image": "/assets/snackvegano.jpg",
+     "price": 23.99
+    },
+    { 
+      "id": 11,
+      "name": "Snacks Funcionais",
+      "image": "/assets/snacksdental.jpg",
+      "price": 19.99
+    },
+    { 
+      "id": 12,
+       "name": "Snacks Recheado",
+       "image": "/assets/snackrecheado.webp",
+       "price": 25.49
+    },
+    { 
+      "id": 13,
+      "name": "Snacks Chocolate",
+      "image": "/assets/snackchoco.webp",
+      "price": 16.99
+    },   
+    { 
+      "id": 14,
+      "name": "Snacks Banana",
+      "image": "/assets/snackbanana.webp",
+      "price": 15.49
+    },
+    { 
+      "id": 15,
+     "name": "Comedouro Duplo",
+     "image": "/assets/comeduplo.webp",
+     "price": 59.99
+    },
+    { 
+      "id": 16,
+     "name": "Comedouro de Plástico",
+     "image": "/assets/comedouropeq.webp",
+     "price": 17.99
     },
 
-    {
-      "id": 3,
-      "name": "Snacks saludables",
-      "image": "/assets/cepillo.jpg",
-      "price": 5.2,
-      "categoria": "alimentos"
+    { 
+      "id": 17,
+     "name": "Comedouro Comilão (Lento)",
+     "image": "/assets/comedourolento.webp",
+     "price": 22.50
     },
-    {
-      "id": 1,
-      "name": "Champú para cachorros",
-      "image": "/assets/champu-1.jpg",
-      "price": 12.99,
-      "categoria": "baño"
+    { 
+      "id": 18,
+     "name": "Comedouro Automático (Dispensador)",
+      "image": "/assets/comedouroauto.jpg",
+     "price": 33.99
     },
-    {
-      "id": 2,
-      "name": "Pelota de goma resistente",
-      "image": "/assets/champ.jpg",
-      "price": 9.99,
-      "categoria": "brinquedos"
+    { 
+      "id": 19,
+     "name": "Comedouro Funcional (Alto)",
+        "image": "/assets/comealto.jpg",
+     "price": 15.49
     },
 
-    {
-      "id": 3,
-      "name": "Snacks saludables",
-      "image": "/assets/cepillo.jpg",
-      "price": 5.2,
-      "categoria": "alimentos"
-    },
-    {
-      "id": 1,
-      "name": "Champú para cachorros",
-      "image": "/assets/champu-1.jpg",
-      "price": 12.99,
-      "categoria": "baño"
-    },
-    {
-      "id": 2,
-      "name": "Pelota de goma resistente",
-      "image": "/assets/champ.jpg",
-      "price": 9.99,
-      "categoria": "brinquedos"
-    },
-
-    {
-      "id": 3,
-      "name": "Snacks saludables",
-      "image": "/assets/cepillo.jpg",
-      "price": 5.2,
-      "categoria": "alimentos"
+    { 
+      "id": 20,
+     "name": "Comedouro Ajustável",
+     "image": "/assets/comeajustavel.webp",
+     "price": 55.99
     }
   ]
 }
