@@ -50,11 +50,11 @@ export const Navbar = () => {
             <span className="nav-link" onClick={toggleCategoriesMenu}>
               Produtos
               <ul className={`categories-menu ${showCategoriesMenu ? 'show' : ''}`}>
-                <li className='baño-li'>
+                <li className='banho-li'>
                   <Link to="ProductList">Lista de Produtos</Link>
                 </li>
-                <li className='baño-li'>
-                  <Link to="/produtos/Baño">Baño</Link>
+                <li className='banho-li'>
+                  <Link to="/produtos/Banho">Banho</Link>
                 </li>
                 <li className='comida-li'>
                   <Link to="/produtos/Alimentos">Alimentos</Link>

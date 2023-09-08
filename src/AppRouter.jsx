@@ -3,7 +3,7 @@ import { HomePage } from "./components/HomePage";
 import { ShippingForm } from "./components/ShippingForm";
 import { Contact } from "./components/Contact";
 import {CartPage }from "./components/CartPage";
-import { BañoPage } from "./components/BañoPage";
+import { BanhoPage } from "./components/BanhoPage";
 import { AlimentosPage } from "./components/AlimentosPage";
 import { BrinquedosPage } from "./components/BrinquedosPage";
 import { ProductList } from "./components/ProductList";
@@ -19,8 +19,8 @@ export const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/produtos/Baño",
-    element: <BañoPage />,
+    path: "/produtos/Banho",
+    element: <BanhoPage />,
   },
   {
     path: "/contact",
@@ -36,17 +36,17 @@ export const router = createBrowserRouter([
 
   },
   {
-    path: "/produtos/Alimentos",
+    path: "/produtos/alimentos",
     element: <AlimentosPage />,
 
   },
   {
-    path: "/produtos/Brinquedos",
+    path: "/produtos/brinquedos",
     element: <BrinquedosPage/>,
 
   },
   {
-    path: "/ProductList",
+    path: "/productList",
     element: <ProductList/>,
 
   },

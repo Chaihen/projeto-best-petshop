@@ -91,7 +91,7 @@ export const ProductForm = ({ onSubmit }) => {
           required
         >
           <option value="">Selecciona una categoría</option>
-          <option value="baño">Baño</option>
+          <option value="banho">Banho</option>
           <option value="alimentos">Alimentos</option>
           <option value="brinquedos">Brinquedos</option>
         </select>
